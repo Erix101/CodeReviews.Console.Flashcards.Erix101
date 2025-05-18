@@ -1,10 +1,9 @@
-﻿namespace Flashcards.Erix101
+﻿namespace Flashcards.Erix101;
+
+internal class Program
 {
-    internal class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Flashcards!");
-        }
+        Console.WriteLine("Flashcards!");
     }
 }
